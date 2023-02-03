@@ -1,0 +1,99 @@
+<!-- 
+    Docs colores: https://getbootstrap.com/docs/5.3/customize/color/ 
+    Text: https://getbootstrap.com/docs/5.3/utilities/colors/#colors
+    Background_ https://getbootstrap.com/docs/5.3/utilities/background/
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+    <p class="text-danger"> Probando Boostrap</p>
+
+    <p class="bg-danger text-primary">Cambiando mi fondo</p>
+
+    <span class="bg-primary text-danger">Fondo Azul y texto rojo</span>
+    
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">Primera columna</div>
+            <div class="col">Segunda columna</div>
+            <div class="col">Tercera columna</div>
+        </div>
+    </div>
+
+    <!--Crear tres contenedores azules-->
+    <!--Que tengan un margen arriba y abajo de 3-->
+    <!--Que tengan un margen izquierda y derecha de 2-->
+    <!--Que tengan un padding a la izquierda de 4-->
+    <div>
+        <div class="bg-primary my-3 mx-2 ps-4">hola</div>
+        <div class="bg-danger my-3 mx-2 ps-4">adios</div>
+        <div class="bg-warning my-3 mx-2 ps-4">probando</div>
+    </div>
+
+    <!-- Crear tres contenedores: uno rojo, azul, amarillo-->
+    <!-- Que tengan un margen arriba y abajo de 2 y derecha izquierda de 3-->
+    <!-- Que tengan un padding en todos los lados de 3 -->
+    <div>
+        <div class="">Ejemplo</div>
+        <div class="bg-primary">Ejemplo 2</div>
+        <div class="">Ejemplo 3</div>
+    </div>
+    
+    <div>
+        <div class="d-inline border-top border-5 border-danger">HOLA</div>
+        <!-- Borde arriba de 3 de ancho y de color amarillo -->
+        <div class="d-inline border-top border-3 border-warning">ADIOS</div>
+        
+        <!-- Borde abajo de 4 de ancho y de color verde -->
+        <div class="d-inline border-bottom border-4 border-success">PROBANDO</div>
+
+        <!-- Borde en todos los lados de 3 de ancho y de color azul -->
+        <div class="d-inline border border-3 border-primary">TODOS</div>
+
+        <!-- Borde a la izquierda de 2 de ancho y de color celeste -->
+        <div class="d-inline border-start border-2 border-info">CEleste</div>
+
+        <div class="d-inline border border-3 border-danger rounded">
+            redondo
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://static.motor.es/fotos-noticias/2020/03/que-coche-es-rayo-mcqueen-202066150-1585635516_1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
